@@ -1,0 +1,33 @@
+---
+layout: post
+title: DC Crime Data | Tableau Dashboard Executive Summary
+date: 2025-04-04
+description: Exploring DC Crime Data in Tableau # Add post description (optional)
+img: dc-dash-snap.png # Add image post (optional)
+fig-caption: A quick snapshot of DC Crime data # Add figcaption (optional)
+tags: [opendata,Tableau,crime,DC]
+---
+I was browsing data.gov's most recent datasets, and spotted <a href="https://catalog.data.gov/dataset/crime-incidents-in-2025" target="_blank">DC Crime Incidents for 2025.</a> Analyzing crime patterns has always been intriguing to me, and so I embarked on my next project.
+
+## Data Format & Review
+The data were available in a variety of formats, but I decided to go with the traditional route of downloading a CSV. I loaded it into Tableau, because after a few R posts, I thought it would be fun to get back to a dashboard.
+
+I spent some time getting to know the data - what fields were available, and what they meant. Some of the questions I had about variables led me to the <a href="https://crimecards.dc.gov/all:crimes/all:weapons/dated::01012025:04012025/citywide:heat" target="_blank">DC Metro Police Department's dashboard</a>  which had helpful FAQ and "About" sections I could read up on.
+
+
+## Brainstorming & Sketching
+Once I got to know the data, I started jotting down my key questions and creating a low fidelity wireframe (aka - I drew a layout on paper). I also looked through Tableau's Viz of the Day for inspiration. This is one of my favorite things to do. It's fun to see everyone's creativity and talent come to life, and learn from one another. 
+
+Then I got to work building my dashboard. For this exercise, I wanted to keep it at a high level overview using the dataset I downloaded. But for future, I would like to join in additional data that was not available in this singular file in order to normalize by population for comparability and to be able to calculate crime rates.  
+
+You can see the end result below, or on Tableau Public <a href="https://public.tableau.com/app/profile/gsarfaty/viz/DCCrimeIncidents2025/DCCrimeDashboard" target="_blank">here.</a> 
+
+
+
+
+
+<div style="width: 100%; height: 90vh; display: flex; justify-content: center; align-items: center;">
+  <iframe src="https://public.tableau.com/views/DCCrimeIncidents2025/DCCrimeDashboard??:embed=yes&:showVizHome=no"
+          width=1370 height="100%" frameborder="0"></iframe>
+</div>
+
